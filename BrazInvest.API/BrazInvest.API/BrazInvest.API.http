@@ -1,0 +1,6 @@
+@BrazInvest.API_HostAddress = http://localhost:5223
+
+GET {{BrazInvest.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
