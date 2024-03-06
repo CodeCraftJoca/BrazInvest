@@ -1,0 +1,36 @@
+@import "../../../color-variables.scss";
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 70px;
+    padding-top: 100px;
+}
+
+@media (min-width: 1080px) {
+    .main-section{
+        flex-direction: row;
+    }
+}
+.head-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first_img_home {
+    //border: 4px solida #3CB371;
+    border-radius: 50%;
+    width: 500px; /* Ajuste conforme necessário */
+    height: 500px; /* Ajuste conforme necessário */
+    // background-color: antiquewhite;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #2F4F4F;
+    border: 1px;
+}
+
